@@ -9,13 +9,29 @@
     </head>
     <body>
         
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Pokédex</a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Pok%c3%a9dex.php">Início</a></li>
+                            <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Tipos%20de%20Pokemon.php">Pokémons por Tipos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Cadastro%20de%20pokem%c3%b3n.php">Cadastrar Pokémon</a></li>
+                            <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/pokem%c3%b3n%20cadastrado.php">Pokémon Cadastrar</a></li>
+                            <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Treinador.php">Treinador</a></li>
+                        </ul>
+                        
+                    </div>
+                </nav>
+            </header>
+
         <div class="container">
             <div class="row">
                 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="file:///C:/Users/Aluno/Downloads/Pok%C3%A9dex/Pokemos%20separados%20por%20tipo/normal.html" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Normal\Normal.avif" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/normal.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Normal/Normal.avif" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Normal</center></h5>
@@ -25,19 +41,19 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Grama\Grama.png" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/planta.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Grama/Grama.png" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
-                          <h5 class="card-title"><center>Grama</center></h5>
+                          <h5 class="card-title"><center>Planta</center></h5>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Escuro\Escuro.jfif" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/sombrio.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Escuro/Escuro.jfif" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Escuro</center></h5>
@@ -47,8 +63,8 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Elétrico\Elétrico.jfif" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/el%c3%a9trico.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Elétrico/Elétrico.jfif" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Elétrico</center></h5>
@@ -59,7 +75,7 @@
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
                         <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Inseto\Inseto.jfif" alt="Imagem de capa do card">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Inseto/Inseto.jfif" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Inseto</center></h5>
@@ -69,8 +85,8 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Voador\Voador.png" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/voador.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Voador/Voador.png" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Voador</center></h5>
@@ -80,8 +96,8 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Gelo\Gelo.jfif" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/gelo.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Gelo/Gelo.jfif" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Gelo</center></h5>
@@ -91,8 +107,8 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Fogo\Fogo.jfif" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/fogo.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Fogo/Fogo.jfif" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Fogo</center></h5>
@@ -102,8 +118,8 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Água\Água.png" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/%c3%a1gua.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Água/Água.png" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Água</center></h5>
@@ -113,8 +129,8 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Veneno\Veneno.jfif" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/veneno.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Veneno/Veneno.jfif" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Veneno</center></h5>
@@ -124,19 +140,19 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Rocha\Rocha.jfif" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/pedra.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Rocha/Rocha.jfif" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
-                          <h5 class="card-title"><center>Rocha</center></h5>
+                          <h5 class="card-title"><center>Pedra</center></h5>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Dragão\Dragão.jfif" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/drag%c3%a3o.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Dragão/Dragão.jfif" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Dragão</center></h5>
@@ -146,8 +162,8 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Fada\Fada.png" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/fada.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Fada/Fada.png" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Fada</center></h5>
@@ -157,8 +173,8 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Fantasma\Fantasma.png" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/fantasma.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Fantasma/Fantasma.png" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Fantasma</center></h5>
@@ -168,8 +184,8 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Psíquico\Psíquico.jfif" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/ps%c3%adquico.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Psíquico/Psíquico.jfif" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Psíquico</center></h5>
@@ -179,8 +195,8 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Aço\Aço.jfif" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/a%c3%a7o.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Aço/Aço.jfif" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Aço</center></h5>
@@ -190,19 +206,19 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Chão\Chão.png" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/terrestre.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Chão/Chão.png" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
-                          <h5 class="card-title"><center>Chão</center></h5>
+                          <h5 class="card-title"><center>Terrestre</center></h5>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <a href="" target="_self">
-                        <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokédex Pokémons por Tipos\Lutando\Lutando.webp" alt="Imagem de capa do card">
+                        <a href="http://localhost/Pok-dex-master/Pokemos%20separados%20por%20tipo/luta.php" target="_self">
+                        <img class="card-img-top" src="img/Pokédex Pokémons por Tipos/Lutando/Lutando.webp" alt="Imagem de capa do card">
                         </a>
                         <div class="card-body">
                           <h5 class="card-title"><center>Lutando</center></h5>

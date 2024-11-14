@@ -5,7 +5,7 @@
                         <meta charset="UTF-8">
                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
                         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-                        <title>Normal - Pokédex</title>
+                        <title>Voador - Pokédex</title>
                         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
                         <style>
                             body {
@@ -45,7 +45,7 @@
                         </header>
 
                         <div class="container mt-5">
-                            <h1 class="text-center">Normal</h1>
+                            <h1 class="text-center">Voador</h1>
                             <div class="row">
                     
                 <div class="card mb-3">
@@ -58,7 +58,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">starly</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">staravia</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">staraptor</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>
@@ -99,14 +99,14 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href='bidoof.php'>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png" class="img-fluid rounded-start" alt="BIDOOF">
+                            <a href='mothim.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png" class="img-fluid rounded-start" alt="MOTHIM">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">bidoof</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <h5 class="card-title">mothim</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>
@@ -115,14 +115,14 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href='bibarel.php'>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png" class="img-fluid rounded-start" alt="BIBAREL">
+                            <a href='combee.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png" class="img-fluid rounded-start" alt="COMBEE">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">bibarel</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <h5 class="card-title">combee</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>
@@ -131,14 +131,14 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href='ambipom.php'>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png" class="img-fluid rounded-start" alt="AMBIPOM">
+                            <a href='vespiquen.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png" class="img-fluid rounded-start" alt="VESPIQUEN">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">ambipom</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <h5 class="card-title">vespiquen</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>
@@ -147,14 +147,14 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href='buneary.php'>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png" class="img-fluid rounded-start" alt="BUNEARY">
+                            <a href='drifloon.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png" class="img-fluid rounded-start" alt="DRIFLOON">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">buneary</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <h5 class="card-title">drifloon</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>
@@ -163,14 +163,14 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href='lopunny.php'>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png" class="img-fluid rounded-start" alt="LOPUNNY">
+                            <a href='drifblim.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png" class="img-fluid rounded-start" alt="DRIFBLIM">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">lopunny</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <h5 class="card-title">drifblim</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>
@@ -179,46 +179,14 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href='glameow.php'>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png" class="img-fluid rounded-start" alt="GLAMEOW">
+                            <a href='honchkrow.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png" class="img-fluid rounded-start" alt="HONCHKROW">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">glameow</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="card mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <a href='purugly.php'>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png" class="img-fluid rounded-start" alt="PURUGLY">
-                            </a>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">purugly</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="card mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <a href='happiny.php'>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png" class="img-fluid rounded-start" alt="HAPPINY">
-                            </a>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">happiny</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <h5 class="card-title">honchkrow</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>
@@ -234,7 +202,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">chatot</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>
@@ -243,14 +211,14 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href='munchlax.php'>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png" class="img-fluid rounded-start" alt="MUNCHLAX">
+                            <a href='mantyke.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png" class="img-fluid rounded-start" alt="MANTYKE">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">munchlax</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <h5 class="card-title">mantyke</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>
@@ -259,14 +227,14 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href='lickilicky.php'>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png" class="img-fluid rounded-start" alt="LICKILICKY">
+                            <a href='togekiss.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png" class="img-fluid rounded-start" alt="TOGEKISS">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">lickilicky</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <h5 class="card-title">togekiss</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>
@@ -275,14 +243,14 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href='porygon_z.php'>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png" class="img-fluid rounded-start" alt="PORYGON-Z">
+                            <a href='yanmega.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png" class="img-fluid rounded-start" alt="YANMEGA">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">porygon-z</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <h5 class="card-title">yanmega</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>
@@ -291,30 +259,14 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href='regigigas.php'>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png" class="img-fluid rounded-start" alt="REGIGIGAS">
+                            <a href='gliscor.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png" class="img-fluid rounded-start" alt="GLISCOR">
                             </a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">regigigas</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="card mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <a href='arceus.php'>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493.png" class="img-fluid rounded-start" alt="ARCEUS">
-                            </a>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">arceus</h5>  <!-- Nome original do Pokémon -->
-                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Normal</span></p>
+                                <h5 class="card-title">gliscor</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Voador</span></p>
                             </div>
                         </div>
                     </div>

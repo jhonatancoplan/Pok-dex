@@ -3,12 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cadastro de Pokémon</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <title>Lista de Pokémons</title>
     </head>
     <body>
 
-            <header>
+        <header>
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a class="navbar-brand" href="#">Pokédex</a>
                     <div class="collapse navbar-collapse">
@@ -23,62 +24,43 @@
                     </div>
                 </nav>
             </header>
-        
-        <div class="container mt-5">
-            <h2>Cadastro de Pokémon</h2>
-            <form action="" method="post">
-                <div class="form-group">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" class="form-control" required>
-                </div>
-                <div class="form-group">
-                    <label for="tipo">Tipo:</label>
-                    <input type="text" id="tipo" name="tipo" class="form-control" required>
-                </div>
-                <div class="form-group">
-                    <label for="imagen">Imagem (URL):</label>
-                    <input type="text" id="imagen" name="imagen" class="form-control" required>
-                </div>
-                <input type="submit" value="Enviar" class="btn btn-primary">
-            </form>
-        </div>
 
         <?php
-            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $link = mysqli_connect("localhost", "root", "", "pokede");
 
-                $nome = $_POST['nome'];
-                $tipo = $_POST['tipo'];
-                $imagen = $_POST['imagen']; 
+        if (!$link) {
+            die("Erro na conexão: " . mysqli_connect_error());
+        }
 
+        $sql = "SELECT nome, tipo, imagen FROM pokemon";
+        $result = $link->query($sql);
 
-                $servername = "localhost";
-                $database = "pokede";
-                $username = "root";
-                $password = "";
+        if ($result->num_rows > 0) {
 
-
-                $conn = mysqli_connect($servername, $username, $password, $database);
-
-                if (!$conn) {
-                    die("Conexão falhou: " . mysqli_connect_error()); 
-                }
-
-                echo "Conexão estabelecida com sucesso!<br>";
-
-                $sql = "INSERT INTO pokemon (nome, tipo, imagen) VALUES ('$nome', '$tipo', '$imagen')";
+            echo '<div class="container mt-5">';
+            echo '<div class="row">';
 
 
-                if ($stmt = mysqli_prepare($conn, $sql)) {
-
-                    if (mysqli_stmt_execute($stmt)) {
-                        echo "Novo registro armazenado com sucesso!";
-                    } else {
-                        echo "Erro ao inserir no banco de dados: " . mysqli_error($conn);
-                    }
-
-                mysqli_close($conn);
-                }
+            while($row = $result->fetch_assoc()) {
+                echo '<div class="col-sm-6 col-md-4 mb-4">';
+                    echo '<div class="card">';
+                        echo '<img class="card-img-top" src="' . $row["imagen"] . '" alt="Imagem de capa do card">';
+                        echo '<div class="card-body">';
+                            echo '<h5 class="card-title">' . $row["nome"] . '</h5>';
+                            echo '<p class="card-text"><strong>Tipo:</strong> ' . $row["tipo"] . '</p>';
+                        echo '</div>';
+                    echo '</div>';
+                echo '</div>';
             }
+
+
+            echo '</div>';
+            echo '</div>';
+        } else {
+            echo "Nenhum Pokémon encontrado.";
+        }
+
+        mysqli_close($link);
         ?>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

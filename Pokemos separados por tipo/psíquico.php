@@ -1,0 +1,194 @@
+
+                    <!DOCTYPE html>
+                    <html lang="pt-br">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        <title>Psíquico - Pokédex</title>
+                        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+                        <style>
+                            body {
+                                background-color: #f4f4f4;
+                                font-family: Arial, sans-serif;
+                            }
+                            .badge {
+                                font-size: 14px;
+                                padding: 8px 12px;
+                                margin: 2px;
+                                border-radius: 12px;
+                            }
+                            .container {
+                                background-color: #fff;
+                                padding: 20px;
+                                border-radius: 8px;
+                                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                            }
+                        </style>
+                    </head>
+                    <body>
+
+                        <header>
+                            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <a class="navbar-brand" href="#">Pokédex</a>
+                                <div class="collapse navbar-collapse">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Pok%c3%a9dex.php">Início</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Tipos%20de%20Pokemon.php">Pokémons por Tipos</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Cadastro%20de%20pokem%c3%b3n.php">Cadastrar Pokémon</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/pokem%c3%b3n%20cadastrado.php">Pokémon Cadastrar</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Treinador.php">Treinador</a></li>
+                                    </ul>
+                                    
+                                </div>
+                            </nav>
+                        </header>
+
+                        <div class="container mt-5">
+                            <h1 class="text-center">Psíquico</h1>
+                            <div class="row">
+                    
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href='chingling.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png" class="img-fluid rounded-start" alt="CHINGLING">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">chingling</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Psíquico</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href='bronzor.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png" class="img-fluid rounded-start" alt="BRONZOR">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">bronzor</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Psíquico</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href='bronzong.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png" class="img-fluid rounded-start" alt="BRONZONG">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">bronzong</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Psíquico</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href='mime_jr.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png" class="img-fluid rounded-start" alt="MIME-JR">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">mime-jr</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Psíquico</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href='gallade.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png" class="img-fluid rounded-start" alt="GALLADE">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">gallade</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Psíquico</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href='uxie.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png" class="img-fluid rounded-start" alt="UXIE">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">uxie</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Psíquico</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href='mesprit.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png" class="img-fluid rounded-start" alt="MESPRIT">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">mesprit</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Psíquico</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href='azelf.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png" class="img-fluid rounded-start" alt="AZELF">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">azelf</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Psíquico</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href='cresselia.php'>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png" class="img-fluid rounded-start" alt="CRESSELIA">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">cresselia</h5>  <!-- Nome original do Pokémon -->
+                                <p class="card-text"><span class="badge" style="background-color: #A8A878; color: white;">Psíquico</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                

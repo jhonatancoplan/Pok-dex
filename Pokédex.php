@@ -11,51 +11,32 @@
 
         </style>
     </head>
+
     <body>
-        
+
+            <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Pokédex</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Pok%c3%a9dex.php">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Tipos%20de%20Pokemon.php">Pokémons por Tipos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Cadastro%20de%20pokem%c3%b3n.php">Cadastrar Pokémon</a></li>
+                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/pokem%c3%b3n%20cadastrado.php">Pokémon Cadastrar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Treinador.php">Treinador</a></li>
+                    </ul>
+                    
+                </div>
+            </nav>
+        </header>
+
         <div class="card mb-3">
-            <img class="card-img-top" src="C:\Users\Aluno\Downloads\Pokédex\img\Pokedex pagina inicial\rotom.png" alt="Imagem de capa do card" height="1000px">
+            <img class="card-img-top" src="img/Pokedex pagina inicial/rotom.png" alt="Imagem de capa do card" height="1000px">
             <div class="card-body">
               <h5 class="card-title"><h1>Pokédex</h1></h5>
               <p class="card-text">Essa pokédex foi feita para mostra todos os pokemon da região de Sinnoh</p>
               <p class="card-text"><small class="text-muted"></small></p>
             </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-
-                <div class="col-sm a">
-                    <div class="card text-center" style="width: 18rem;">
-                        <div class="card-body">
-                        <h5 class="card-title">Pokémons por Tipos</h5>
-                        <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                        <a href="file:///C:/Users/Aluno/Downloads/Pok%C3%A9dex/Tipos%20de%20Pokemon.html" class="btn btn-primary">Visitar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm a">
-                    <div class="card text-center" style="width: 18rem;">
-                        <div class="card-body">
-                        <h5 class="card-title">Cadastro de pokemón</h5>
-                        <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                        <a href="C:\Users\Aluno\Downloads\Pokédex\Cadastro de pokemón.html" class="btn btn-primary">Visitar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm a">
-                    <div class="card text-center" style="width: 18rem;">
-                        <div class="card-body">
-                        <h5 class="card-title">Treinador</h5>
-                        <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                        <a href="C:\Users\Aluno\Downloads\Pokédex\Treinador.html" class="btn btn-primary">Visitar</a>
-                        </div>
-                    </div> 
-                </div>
-
-            </div>      
         </div>
 
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

@@ -8,6 +8,23 @@
         </style>
     </head>
     <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Pokédex</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Pok%c3%a9dex.php">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Tipos%20de%20Pokemon.php">Pokémons por Tipos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Cadastro%20de%20pokem%c3%b3n.php">Cadastrar Pokémon</a></li>
+                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/pokem%c3%b3n%20cadastrado.php">Pokémon Cadastrar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="http://localhost/Pok-dex-master/Treinador.php">Treinador</a></li>
+                    </ul>
+                    
+                </div>
+            </nav>
+        </header>
+
         <div class="container">
             <div class="row">
 
